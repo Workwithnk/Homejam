@@ -124,4 +124,13 @@
   .title_Upcoming h1 {
     font-size: 6vw;
   }
+  .name_UpComing h3 {
+    font-size: 5vw;
+  }
+  .save_Upcoming p {
+    font-size: 3vw;
+  }
+  .saveIcon {
+    font-size: 5vw;
+  }
 }
