@@ -1,0 +1,99 @@
+.home {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.6),
+      rgba(1, 4, 14, 0.8),
+      rgb(1, 8, 27)
+    ),
+    url("../Image/bg.jpg") no-repeat center center/cover;
+}
+
+.text_home {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  width: 54%;
+  padding-bottom: 17%;
+  padding-top: 16%;
+  padding-left: 5%;
+}
+.text_home h1 {
+  font-family: "Merriweather", serif;
+  font-size: 5vw;
+  color: #fff;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+.text_home p {
+  font-size: 1.5vw;
+  font-family: monospace;
+  color: #fff;
+}
+
+.progress_Home {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 4%;
+  width: 100%;
+}
+
+.subProgressCon_Home {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 50%;
+  border: 1px solid #ffffff40;
+}
+
+.Icon_Home {
+  font-size: 3vw;
+  color: blue;
+}
+.subProgressCon_Home h5 {
+  font-size: 3vw;
+  color: #fff;
+}
+.subProgressCon_Home p {
+  font-size: 2vw;
+  color: #fff;
+}
+
+@media only screen and (max-width: 890px) {
+  .mainProgressCon_Home {
+    width: 300px;
+    height: 200px;
+    margin-right: 0%;
+    margin-left: 6%;
+  }
+  .progress_Home {
+    justify-content: flex-start;
+    overflow-x: scroll;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .Icon_Home {
+    font-size: 7vw;
+  }
+  .subProgressCon_Home h5 {
+    font-size: 7vw;
+  }
+  .subProgressCon_Home p {
+    font-size: 5vw;
+  }
+  .text_home {
+    width: 80%;
+  }
+  .text_home h1 {
+    font-size: 11vw;
+  }
+  .text_home p {
+    font-size: 3vw;
+  }
+}
