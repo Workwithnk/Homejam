@@ -29,11 +29,7 @@
 .text_home p {
   font-size: 1.5vw;
   font-family: monospace;
-<<<<<<< HEAD
-  color: rgb(0, 0, 0);
-=======
   color: rgb(150, 141, 141);
->>>>>>> fixing
 }
 
 .progress_Home {
